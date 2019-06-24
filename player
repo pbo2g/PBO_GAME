@@ -3319,4 +3319,190 @@ public class MyWorld extends World
      
     }
 }
+//maze level 12
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class MyWorld here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class MyWorld extends World
+{
+    /**
+     * Brick Color.
+     *  
+     */
+    /**
+     * Constructor for objects of class MyWorld.
+     * 
+     */
+    public MyWorld()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(750, 600, 1); 
+        prepare();
+    }
+
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+        WallH3 wallH00 = new WallH3();
+addObject(wallH00,151,7);
+
+WallH3 wallH01= new WallH3();
+addObject(wallH01,428,7);
+
+WallH3 wallH02 = new WallH3();
+addObject(wallH02,587,594);
+
+WallH3 wallH03 = new WallH3();
+addObject(wallH03,309,594);
+
+WallH1 wallX1 = new WallH1();
+addObject(wallX1,688,7);
+
+WallH1 wallX2 = new WallH1();
+addObject(wallX2,710,7);
+
+WallH1 wallX3 = new WallH1();
+addObject(wallX3,734,7);
+
+WallV3 wallV00 = new WallV3();
+addObject(wallV00,742,301);
+
+WallV2 wallV27 = new WallV2();
+addObject(wallV27,5,451);
+
+WallV2 wallV11 = new WallV2();
+addObject(wallV11,5,161);
+
+WallV1 wallV009 = new WallV1();
+addObject(wallV009,577,551);
+
+WallV1 wallV001 = new WallV1();
+addObject(wallV001,82,472);
+
+WallV1 wallV002 = new WallV1();
+addObject(wallV002,82,354);
+
+WallV1 wallV003 = new WallV1();
+addObject(wallV003,82,254);
+
+WallV1 wallV004 = new WallV1();
+addObject(wallV004,82,73);
+
+WallV1 wallV005 = new WallV1();
+addObject(wallV005,165,22);
+
+WallV1 wallV006 = new WallV1();
+addObject(wallV006,396,19);
+
+WallV1 wallV007 = new WallV1();
+addObject(wallV007,244,128);
+
+WallV1 wallV008 = new WallV1();
+addObject(wallV008,320,308);
+
+WallV1 wallV010 = new WallV1();
+addObject(wallV010,394,241);
+
+WallV1 wallV011 = new WallV1();
+addObject(wallV011,663,131);
+
+WallV1 wallV012 = new WallV1();
+addObject(wallV012,663,208);
+
+WallV1 wallV013 = new WallV1();
+addObject(wallV013,462,126);
+
+WallV1 wallV014 = new WallV1();
+addObject(wallV014,575,127);
+
+WallV1 wallV015 = new WallV1();
+addObject(wallV015,577,313);
+
+WallV1 wallV016 = new WallV1();
+addObject(wallV016,577,381);
+
+WallV1 wallV017 = new WallV1();
+addObject(wallV017,463,314);
+
+WallV1 wallV018 = new WallV1();
+addObject(wallV018,161,588);
+
+WallV1 wallV019 = new WallV1();
+addObject(wallV019,395,427);
+
+WallV1 wallV021 = new WallV1();
+addObject(wallV021,164,346);
+
+WallV1 wallV022 = new WallV1();
+addObject(wallV022,652,387);
+
+WallH4 wallH000 = new WallH4();
+addObject(wallH000,45,189);
+
+WallH4 wallH001 = new WallH4();
+addObject(wallH001,120,132);
+
+WallH4 wallH002 = new WallH4();
+addObject(wallH002,127,291);
+
+WallH4 wallH003 = new WallH4();
+addObject(wallH003,283,248);
+
+WallH4 wallH004 = new WallH4();
+addObject(wallH004,283,180);
+
+WallH4 wallH005 = new WallH4();
+addObject(wallH005,359,71);
+
+WallH4 wallH006 = new WallH4();
+addObject(wallH006,282,71);
+
+WallH4 wallH007 = new WallH4();
+addObject(wallH007,500,70);
+
+WallH4 wallH008 = new WallH4();
+addObject(wallH008,538,70);
+
+WallH4 wallH009 = new WallH4();
+addObject(wallH009,502,260);
+
+WallH4 wallH010 = new WallH4();
+addObject(wallH010,539,260);
+
+WallH4 wallH011 = new WallH4();
+addObject(wallH011,615,330);
+
+WallH4 wallH012 = new WallH4();
+addObject(wallH012,703,260);
+
+WallH2 wallH71 = new WallH2();
+addObject(wallH71,150,452);
+
+WallH2 wallH72 = new WallH2();
+addObject(wallH72,235,452);
+
+WallH2 wallH74 = new WallH2();
+addObject(wallH74,231,533);
+
+WallH4 wallH013 = new WallH4();
+addObject(wallH013,540,436);
+
+WallH4 wallH014 = new WallH4();
+addObject(wallH014,506,436);
+
+WallH4 wallH015 = new WallH4();
+addObject(wallH015,425,367);
+
+WallH4 wallH016 = new WallH4();
+addObject(wallH016,358,367);
+    }
+}
 
