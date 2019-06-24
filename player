@@ -2617,4 +2617,379 @@ public class MyWorld extends World
         v18.setLocation(217,247);
     }
 }
+//maze level 10
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class MyWorld here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class MyWorld extends World
+{
+
+    /**
+     * Constructor for objects of class MyWorld.
+     * 
+     */
+    public MyWorld()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(750, 600, 1); 
+        prepare();
+    }
+
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+        Y1 y148 = new Y1();
+        addObject(y148,323,376);
+        Y1 y149 = new Y1();
+        addObject(y149,340,379);
+        y149.setLocation(339,366);
+        y148.setLocation(329,366);
+        U2 u2 = new U2();
+        addObject(u2,369,333);
+        u2.setLocation(381,333);
+        u2.setLocation(383,332);
+        u2.setLocation(394,332);
+        u2.setLocation(382,333);
+        U3 u3 = new U3();
+        addObject(u3,251,333);
+        u3.setLocation(262,333);
+        Y1 y150 = new Y1();
+        addObject(y150,259,240);
+        Y1 y151 = new Y1();
+        addObject(y151,250,234);
+        y150.setLocation(258,245);
+        y150.setLocation(260,234);
+        U2 u22 = new U2();
+        addObject(u22,303,267);
+        u22.setLocation(302,268);
+        u22.setLocation(302,268);
+        Y1 y142 = new Y1();
+        addObject(y142,502,238);
+        Y1 y143 = new Y1();
+        addObject(y143,490,234);
+        y142.setLocation(500,234);
+        U2 u23 = new U2();
+        addObject(u23,458,269);
+        u23.setLocation(462,268);
+        U2 u24 = new U2();
+        addObject(u24,619,268);
+        u24.setLocation(622,269);
+        U3 u32 = new U3();
+        addObject(u32,577,76);
+        U3 u33 = new U3();
+        addObject(u33,643,205);
+        u33.setLocation(648,205);
+
+        U2 u25 = new U2();
+        addObject(u25,689,333);
+        u25.setLocation(688,333);
+        U2 u26 = new U2();
+        addObject(u26,531,334);
+        u26.setLocation(528,333);
+        U2 u27 = new U2();
+        addObject(u27,448,398);
+        u27.setLocation(447,397);
+        U2 u28 = new U2();
+        addObject(u28,534,462);
+        u28.setLocation(537,462);
+        U2 u29 = new U2();
+        addObject(u29,448,526);
+        U2 u210 = new U2();
+        addObject(u210,298,526);
+        u210.setLocation(301,526);
+        U2 u211 = new U2();
+        addObject(u211,613,525);
+        u211.setLocation(611,526);
+        u211.setLocation(616,525);
+        U3 u34 = new U3();
+        addObject(u34,335,461);
+        U2 u212 = new U2();
+        addObject(u212,134,526);
+        U2 u213 = new U2();
+        addObject(u213,56,462);
+        u213.setLocation(61,461);
+        U2 u214 = new U2();
+        addObject(u214,65,334);
+        u214.setLocation(61,333);
+        U3 u35 = new U3();
+        addObject(u35,99,269);
+        u35.setLocation(111,269);
+
+        U1 u1 = new U1();
+        addObject(u1,20,268);
+        u1.setLocation(14,265);
+        u1.setLocation(14,262);
+        u1.setLocation(21,269);
+        U2 u215 = new U2();
+        addObject(u215,62,205);
+        u215.setLocation(61,204);
+        U3 u36 = new U3();
+        addObject(u36,333,204);
+        u36.setLocation(332,205);
+
+        U2 u216 = new U2();
+        addObject(u216,216,139);
+        u216.setLocation(222,140);
+        U3 u37 = new U3();
+        addObject(u37,101,77);
+        u37.setLocation(112,76);
+
+        U1 u12 = new U1();
+        addObject(u12,21,76);
+        u12.setLocation(16,75);
+        u12.setLocation(22,76);
+
+        Y1 y1 = new Y1();
+        addObject(y1,93,300);
+        y1.setLocation(89,302);
+        Y1 y12 = new Y1();
+        addObject(y12,114,306);
+        y12.setLocation(99,302);
+        Y1 y13 = new Y1();
+        addObject(y13,167,313);
+        y13.setLocation(163,315);
+        y13.setLocation(168,302);
+        y13.setLocation(169,302);
+        Y1 y14 = new Y1();
+        addObject(y14,180,307);
+        y14.setLocation(179,302);
+
+        Y1 y15 = new Y1();
+        addObject(y15,101,174);
+        y15.setLocation(98,170);
+        Y1 y16 = new Y1();
+        addObject(y16,67,177);
+        y16.setLocation(88,170);
+        Y0 y0 = new Y0();
+        addObject(y0,333,108);
+        y0.setLocation(329,117);
+        Y1 y17 = new Y1();
+        addObject(y17,346,128);
+        y17.setLocation(344,106);
+        y17.setLocation(346,140);
+        y0.setLocation(329,158);
+        removeObject(y0);
+        y17.setLocation(344,121);
+        Y1 y18 = new Y1();
+        addObject(y18,314,134);
+        y18.setLocation(326,110);
+        y17.setLocation(340,107);
+        y18.setLocation(327,110);
+
+        y17.setLocation(339,110);
+        y18.setLocation(321,97);
+        y18.setLocation(329,110);
+        Y2 y2 = new Y2();
+        addObject(y2,252,92);
+        y2.setLocation(248,70);
+        Y2 y22 = new Y2();
+        addObject(y22,259,98);
+        y22.setLocation(259,70);
+        Y1 y19 = new Y1();
+        addObject(y19,489,120);
+        y19.setLocation(490,110);
+        Y1 y110 = new Y1();
+        addObject(y110,502,125);
+        y110.setLocation(500,130);
+        y110.setLocation(500,110);
+
+        u32.setLocation(577,80);
+        Y1 y111 = new Y1();
+        addObject(y111,648,120);
+        y111.setLocation(650,110);
+        Y1 y112 = new Y1();
+        addObject(y112,660,110);
+        Y1 y113 = new Y1();
+        addObject(y113,558,174);
+        y113.setLocation(570,174);
+        Y1 y114 = new Y1();
+        addObject(y114,592,173);
+        y114.setLocation(580,174);
+        Y2 y23 = new Y2();
+        addObject(y23,415,109);
+        y23.setLocation(410,70);
+        Y2 y24 = new Y2();
+        addObject(y24,420,70);
+        Y2 y25 = new Y2();
+        addObject(y25,579,352);
+        y25.setLocation(579,342);
+        removeObject(y25);
+        Y1 y115 = new Y1();
+        addObject(y115,578,339);
+        y115.setLocation(579,300);
+        Y1 y116 = new Y1();
+        addObject(y116,587,388);
+        y116.setLocation(579,365);
+        y116.setLocation(579,366);
+
+        Y1 y118 = new Y1();
+        addObject(y118,555,294);
+
+        y118.setLocation(569,300);
+
+        Y1 y117 = new Y1();
+        addObject(y117,570,369);
+        y117.setLocation(569,366);
+        y115.setLocation(579,300);
+        Y1 y119 = new Y1();
+        addObject(y119,648,496);
+        Y1 y120 = new Y1();
+        addObject(y120,649,428);
+        y119.setLocation(649,506);
+        y119.setLocation(652,493);
+        y120.setLocation(650,428);
+        y119.setLocation(652,503);
+        y119.setLocation(650,502);
+        y119.setLocation(650,485);
+        Y1 y122 = new Y1();
+        addObject(y122,664,513);
+        y122.setLocation(660,496);
+        y122.setLocation(660,491);
+        Y1 y121 = new Y1();
+        addObject(y121,660,498);
+        y121.setLocation(660,427);
+        y119.setLocation(650,510);
+        y119.setLocation(650,491);
+
+        Y1 y123 = new Y1();
+        addObject(y123,570,496);
+        y123.setLocation(578,491);
+        Y1 y124 = new Y1();
+        addObject(y124,550,488);
+        y123.setLocation(580,491);
+        y123.setLocation(582,477);
+        y123.setLocation(580,491);
+        y124.setLocation(542,488);
+        y124.setLocation(571,489);
+        y124.setLocation(572,492);
+        y124.setLocation(572,489);
+        y124.setLocation(570,491);
+        u211.setLocation(616,521);
+
+        Y2 y26 = new Y2();
+        addObject(y26,504,537);
+        Y2 y27 = new Y2();
+        addObject(y27,465,508);
+        y26.setLocation(500,531);
+
+        y27.setLocation(490,531);
+        Y0 y02 = new Y0();
+        addObject(y02,178,454);
+        removeObject(y02);
+        Y1 y125 = new Y1();
+        addObject(y125,254,550);
+        y125.setLocation(254,564);
+        Y1 y126 = new Y1();
+        addObject(y126,228,552);
+        y126.setLocation(229,551);
+        y125.setLocation(252,556);
+        y126.setLocation(250,569);
+        y125.setLocation(260,555);
+        y126.setLocation(248,555);
+        u212.setLocation(134,521);
+        Y1 y129 = new Y1();
+        addObject(y129,190,491);
+        Y1 y130 = new Y1();
+        addObject(y130,169,491);
+        y129.setLocation(178,499);
+        y129.setLocation(179,491);
+        Y1 y127 = new Y1();
+        addObject(y127,176,471);
+        Y1 y128 = new Y1();
+        addObject(y128,169,427);
+        y127.setLocation(179,427);
+
+        Y1 y131 = new Y1();
+        addObject(y131,95,501);
+        Y1 y132 = new Y1();
+        addObject(y132,88,491);
+        y131.setLocation(100,492);
+        y131.setLocation(98,491);
+        Y1 y133 = new Y1();
+        addObject(y133,118,416);
+        Y1 y134 = new Y1();
+        addObject(y134,88,427);
+        y133.setLocation(98,427);
+        Y1 y135 = new Y1();
+        addObject(y135,247,435);
+        y135.setLocation(250,427);
+        Y1 y136 = new Y1();
+        addObject(y136,260,427);
+        y136.setLocation(260,427);
+        u34.setLocation(337,457);
+        Y1 y137 = new Y1();
+        addObject(y137,405,436);
+        Y1 y138 = new Y1();
+        addObject(y138,422,438);
+        y137.setLocation(410,427);
+        y138.setLocation(420,427);
+        Y1 y139 = new Y1();
+        addObject(y139,486,375);
+        y139.setLocation(492,373);
+        Y1 y140 = new Y1();
+        addObject(y140,492,373);
+        Y1 y141 = new Y1();
+        addObject(y141,506,364);
+        y141.setLocation(499,370);
+        y139.setLocation(434,364);
+        y139.setLocation(490,366);
+
+        y141.setLocation(499,370);
+        y141.setLocation(500,366);
+
+        y140.setLocation(440,411);
+        removeObject(y140);
+
+        Y1 y144 = new Y1();
+        addObject(y144,426,295);
+        Y1 y145 = new Y1();
+        addObject(y145,395,290);
+        y144.setLocation(420,285);
+        y145.setLocation(420,235);
+        Y1 y146 = new Y1();
+        addObject(y146,405,287);
+        y146.setLocation(410,285);
+        Y1 y147 = new Y1();
+        addObject(y147,412,222);
+        y147.setLocation(410,235);
+
+        u22.setLocation(288,268);
+
+        Y1 y152 = new Y1();
+        addObject(y152,175,186);
+        Y1 y153 = new Y1();
+        addObject(y153,170,171);
+        y152.setLocation(174,176);
+        y152.setLocation(176,172);
+        y152.setLocation(180,171);
+        U4 u4 = new U4();
+        addObject(u4,349,13);
+        u4.setLocation(333,10);
+        U4 u42 = new U4();
+        addObject(u42,333,590);
+        Y3 y3 = new Y3();
+        addObject(y3,730,237);
+        y3.setLocation(730,302);
+        y3.setLocation(730,302);
+        Y3 y32 = new Y3();
+        addObject(y32,742,302);
+        Y3 y33 = new Y3();
+        addObject(y33,10,357);
+        y33.setLocation(-10,412);
+        y33.setLocation(07,302);
+        Y3 y34 = new Y3();
+        addObject(y34,39,399);
+        y34.setLocation(15,387);
+        y34.setLocation(17,302);
+     
+    }
+}
 
