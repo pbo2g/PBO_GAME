@@ -2021,7 +2021,6 @@ public class MyWorld extends World
         V1 v110 = new V1();
         addObject(v110,80,283);
         v110.setLocation(83,261);
-
         V1 v111 = new V1();
         addObject(v111,204,334);
         v111.setLocation(155,336);
@@ -2071,4 +2070,159 @@ public class MyWorld extends World
         addObject(h113,435,518);
     }
 }
+//Maze level 7
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
+/**
+ * Write a description of class MyWorld here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class MyWorld extends World
+{
+
+    /**
+     * Constructor for objects of class MyWorld.
+     * 
+     */
+    public MyWorld()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(750, 600, 1); 
+        prepare();
+    }
+    public void prepare(){
+        WallX1 wallX00 = new WallX1();
+        addObject(wallX00,225,7);
+        
+        WallX2 wallX01 = new WallX2();
+        addObject(wallX01,645,7);
+        
+        WallX2 wallX02 = new WallX2();
+        addObject(wallX02,104,592);
+
+        WallX1 wallX03 = new WallX1();
+        addObject(wallX03,526,592);
+        
+        WallY1 wallY00 = new WallY1();
+        addObject(wallY00,7,300);
+        
+        WallY1 wallY01 = new WallY1();
+        addObject(wallY01,743,300);
+        
+        WallX2 wallX06 = new WallX2();
+        addObject(wallX06,120,161);
+        
+        WallX2 wallX04 = new WallX2();
+        addObject(wallX04,422,165);
+        
+        WallX2 wallX05 = new WallX2();
+        addObject(wallX05,632,165);
+        
+        WallY2 wallY001 = new WallY2();
+        addObject(wallY001,217,160);
+        
+        WallY2 wallY002 = new WallY2();
+        addObject(wallY002,324,160);
+        
+        WallX2 wallX001 = new WallX2();
+        addObject(wallX001,119,291);
+        
+        WallX2 wallX002 = new WallX2();
+        addObject(wallX002,442,291);
+        
+        WallX2 wallX003 = new WallX2();
+        addObject(wallX003,119,409);
+        
+        WallX2 wallX004 = new WallX2();
+        addObject(wallX004,329,409);
+        
+        WallX2 wallX005 = new WallX2();
+        addObject(wallX005,631,408);
+        
+        WallX2 wallX006 = new WallX2();
+        addObject(wallX006,442,291);
+        
+        WallY2 wallY11 = new WallY2();
+        addObject(wallY11,329,344);
+        
+        WallY2 wallY12 = new WallY2();
+        addObject(wallY12,641,342);
+        
+        WallY2 wallY13 = new WallY2();
+        addObject(wallY13,441,462);
+        
+        WallX2 wallX1 = new WallX2();
+        addObject(wallX1,422,92);
+        
+        WallY3 wallY14 = new WallY3();
+        addObject(wallY14,540,269);
+        
+        WallY3 wallY15 = new WallY3();
+        addObject(wallY15,641,189);
+        
+        WallY3 wallY16 =  new WallY3();
+        addObject(wallY16,641,342);
+        
+        WallY3 wallY17 = new WallY3();
+        addObject(wallY17,533,389);
+        
+        WallY3 wallY18 = new WallY3();
+        addObject(wallY18,533,446);
+        
+        WallY3 wallY19 = new WallY3();
+        addObject(wallY19,441,462);
+        
+        WallX2 wallXX = new WallX2();
+        addObject(wallXX,105,513);
+
+	WallY4 wallY111 = new WallY4();
+	addObject(wallY111,97,83);
+
+	WallY2 wallY222 = new WallY2();
+	addObject(wallY222,217,160);
+
+	WallY4 wallY112 = new WallY4();
+	addObject(wallY112,216,320);
+
+	WallX3 wallX111 = new WallX3();
+	addObject(wallX111,164,344);
+
+	WallX3 wallX112 = new WallX3();
+	addObject(wallX112,587,468);
+
+	WallY4 wallY113 = new WallY4();
+	addObject(wallY113,639,497);
+
+	WallY4 wallY114 = new WallY4();
+	addObject(wallY114,534,562);
+
+	WallY4 wallY115 = new WallY4();
+	addObject(wallY115,308,424);
+
+	WallY4 wallY116 = new WallY4();
+	addObject(wallY116,308,526);
+
+	WallY4 wallY117 = new WallY4();
+	addObject(wallY117,202,484);
+
+	WallY4 wallY118 = new WallY4();
+	addObject(wallY118,200,576);
+
+	WallY4 wallY119 = new WallY4();
+	addObject(wallY119,308,566);
+
+	WallX3 wallX0000 = new WallX3();
+	addObject(wallX0000,150,107);
+
+	WallX3 wallX0001 = new WallX3();
+	addObject(wallX0001,676,94);
+
+	WallY4 wallY0000 = new WallY4();
+	addObject(wallY0000,110,262);
+
+	WallY4 wallY0001 = new WallY4();
+	addObject(wallY0001,534,562);	
+    }
+}
