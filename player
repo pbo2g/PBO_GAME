@@ -1005,6 +1005,213 @@ public MyWorld()
     }
 }
 
+//Maze level 4
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class MyWorld here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class MyWorld extends World
+{
+
+    /**
+     * Constructor for objects of class MyWorld.
+     * 
+     */
+    public MyWorld()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(750, 600, 1); 
+        prepare();
+    }
+
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+        DindingDatar dindingDatar = new DindingDatar();
+        addObject(dindingDatar,419,543);
+        dindingDatar.setLocation(492,483);
+        DindingPanjang dindingPanjang = new DindingPanjang();
+        addObject(dindingPanjang,235,476);
+        dindingPanjang.setLocation(181,543);
+        DindingPanjang dindingPanjang2 = new DindingPanjang();
+        addObject(dindingPanjang2,358,543);
+        dindingPanjang2.setLocation(420,543);
+        DindingPanjang dindingPanjang3 = new DindingPanjang();
+        addObject(dindingPanjang3,622,537);
+        removeObject(dindingPanjang3);
+        DindingDatar dindingDatar2 = new DindingDatar();
+        addObject(dindingDatar2,678,455);
+        dindingDatar2.setLocation(599,541);
+        dindingDatar2.setLocation(584,543);
+        DindingDatar dindingDatar3 = new DindingDatar();
+        addObject(dindingDatar3,634,531);
+        dindingDatar3.setLocation(649,543);
+        DindingPanjang dindingPanjang4 = new DindingPanjang();
+        addObject(dindingPanjang4,634,104);
+        dindingPanjang4.setLocation(570,55);
+        DindingPanjang dindingPanjang5 = new DindingPanjang();
+        addObject(dindingPanjang5,477,129);
+        dindingPanjang5.setLocation(331,55);
+        DindingNaik dindingNaik = new DindingNaik();
+        addObject(dindingNaik,596,342);
+        dindingNaik.setLocation(69,491);
+        DindingPanjang dindingPanjang6 = new DindingPanjang();
+        addObject(dindingPanjang6,387,390);
+        DindingNaik dindingNaik2 = new DindingNaik();
+        addObject(dindingNaik2,275,331);
+        dindingNaik2.setLocation(69,375);
+        DindingNaik dindingNaik3 = new DindingNaik();
+        addObject(dindingNaik3,226,330);
+        DindingDatar dindingDatar4 = new DindingDatar();
+        addObject(dindingDatar4,431,168);
+        dindingDatar4.setLocation(167,55);
+        DindingDatar dindingDatar5 = new DindingDatar();
+        addObject(dindingDatar5,323,191);
+        dindingDatar5.setLocation(87,55);
+        dindingDatar5.setLocation(105,55);
+        DindingNaik dindingNaik4 = new DindingNaik();
+        addObject(dindingNaik4,217,191);
+        dindingNaik4.setLocation(68,108);
+        DindingNaik dindingNaik5 = new DindingNaik();
+        addObject(dindingNaik5,221,204);
+        dindingNaik5.setLocation(68,185);
+        dindingNaik3.setLocation(680,108);
+        DindingNaik dindingNaik6 = new DindingNaik();
+        addObject(dindingNaik6,702,290);
+        dindingNaik6.setLocation(680,228);
+        DindingNaik dindingNaik7 = new DindingNaik();
+        addObject(dindingNaik7,594,282);
+        dindingNaik7.setLocation(680,348);
+        DindingNaik dindingNaik8 = new DindingNaik();
+        addObject(dindingNaik8,701,348);
+        dindingNaik8.setLocation(681,431);
+        DindingNaik dindingNaik9 = new DindingNaik();
+        addObject(dindingNaik9,633,425);
+        dindingNaik9.setLocation(604,477);
+        dindingDatar.setLocation(565,422);
+        dindingPanjang6.setLocation(265,483);
+        DindingDatar dindingDatar6 = new DindingDatar();
+        addObject(dindingDatar6,371,500);
+        dindingDatar6.setLocation(379,499);
+        dindingDatar6.setLocation(180,483);
+        DindingPanjang dindingPanjang7 = new DindingPanjang();
+        addObject(dindingPanjang7,335,401);
+        dindingPanjang7.setLocation(265,299);
+        DindingPanjang dindingPanjang8 = new DindingPanjang();
+        addObject(dindingPanjang8,432,274);
+        dindingPanjang8.setLocation(420,238);
+        DindingPanjang dindingPanjang9 = new DindingPanjang();
+        addObject(dindingPanjang9,321,178);
+        dindingPanjang9.setLocation(264,115);
+        DindingPanjang dindingPanjang10 = new DindingPanjang();
+        addObject(dindingPanjang10,638,215);
+        dindingPanjang10.setLocation(487,178);
+        DindingNaik dindingNaik10 = new DindingNaik();
+        addObject(dindingNaik10,269,340);
+        dindingNaik10.setLocation(69,354);
+        DindingNaik dindingNaik11 = new DindingNaik();
+        addObject(dindingNaik11,552,359);
+        dindingNaik11.setLocation(527,355);
+        DindingNaik dindingNaik12 = new DindingNaik();
+        addObject(dindingNaik12,404,361);
+        dindingNaik12.setLocation(375,367);
+        DindingNaik dindingNaik13 = new DindingNaik();
+        addObject(dindingNaik13,479,380);
+        dindingNaik13.setLocation(451,305);
+        DindingNaik dindingNaik14 = new DindingNaik();
+        addObject(dindingNaik14,635,274);
+        dindingNaik14.setLocation(447,435);
+        dindingNaik14.setLocation(451,425);
+        DindingDatar dindingDatar7 = new DindingDatar();
+        addObject(dindingDatar7,595,328);
+        dindingDatar7.setLocation(391,429);
+        removeObject(dindingDatar7);
+        DindingDatar dindingDatar77 = new DindingDatar();
+        addObject(dindingDatar7,485,435);
+        dindingDatar7.setLocation(412,422);
+        DindingDatar dindingDatar8 = new DindingDatar();
+        addObject(dindingDatar8,497,462);
+        dindingDatar8.setLocation(491,482);
+        DindingPanjang dindingPanjang11 = new DindingPanjang();
+        addObject(dindingPanjang11,636,246);
+        removeObject(dindingPanjang11);
+        DindingNaik dindingNaik15 = new DindingNaik();
+        addObject(dindingNaik15,636,211);
+        dindingNaik15.setLocation(604,170);
+        DindingNaik dindingNaik16 = new DindingNaik();
+        addObject(dindingNaik16,660,291);
+        dindingNaik16.setLocation(604,290);
+        DindingDatar dindingDatar9 = new DindingDatar();
+        addObject(dindingDatar9,639,347);
+        dindingDatar9.setLocation(566,297);
+        DindingDatar dindingDatar10 = new DindingDatar();
+        addObject(dindingDatar10,240,399);
+        dindingDatar10.setLocation(128,415);
+        dindingDatar10.setLocation(121,442);
+        dindingDatar10.setLocation(115,423);
+        dindingDatar10.setLocation(122,422);
+        DindingDatar dindingDatar11 = new DindingDatar();
+        addObject(dindingDatar11,320,445);
+        dindingDatar11.setLocation(176,416);
+        dindingDatar11.setLocation(184,422);
+        DindingDatar dindingDatar12 = new DindingDatar();
+        addObject(dindingDatar12,194,258);
+        dindingDatar12.setLocation(112,237);
+        dindingDatar12.setLocation(120,236);
+        DindingDatar dindingDatar13 = new DindingDatar();
+        addObject(dindingDatar13,260,260);
+        dindingDatar13.setLocation(184,236);
+        DindingNaik dindingNaik17 = new DindingNaik();
+        addObject(dindingNaik17,643,320);
+        dindingNaik17.setLocation(604,311);
+        DindingNaik dindingNaik18 = new DindingNaik();
+        addObject(dindingNaik18,340,408);
+        dindingNaik18.setLocation(298,416);
+        DindingNaik dindingNaik19 = new DindingNaik();
+        addObject(dindingNaik19,182,334);
+        dindingNaik19.setLocation(145,307);
+        DindingDatar dindingDatar14 = new DindingDatar();
+        addObject(dindingDatar14,342,377);
+        dindingDatar14.setLocation(260,360);
+        DindingDatar2 dindingDatar22 = new DindingDatar2();
+        addObject(dindingDatar22,505,354);
+        dindingDatar22.setLocation(221,391);
+        DindingDatar2 dindingDatar23 = new DindingDatar2();
+        addObject(dindingDatar23,417,206);
+        dindingDatar23.setLocation(451,141);
+        DindingDatar2 dindingDatar24 = new DindingDatar2();
+        addObject(dindingDatar24,531,107);
+        dindingDatar24.setLocation(528,92);
+        DindingDatar2 dindingDatar25 = new DindingDatar2();
+        addObject(dindingDatar25,206,153);
+        dindingDatar25.setLocation(145,138);
+        DindingDatar2 dindingDatar26 = new DindingDatar2();
+        addObject(dindingDatar26,266,212);
+        dindingDatar26.setLocation(145,154);
+        DindingDatar2 dindingDatar27 = new DindingDatar2();
+        addObject(dindingDatar27,344,198);
+        dindingDatar27.setLocation(222,202);
+        DindingDatar2 dindingDatar28 = new DindingDatar2();
+        addObject(dindingDatar28,409,207);
+        dindingDatar28.setLocation(513,213);
+        DindingDatar dindingDatar15 = new DindingDatar();
+        addObject(dindingDatar15,354,198);
+        DindingNaik dindingNaik20 = new DindingNaik();
+        addObject(dindingNaik20,429,266);
+        dindingNaik20.setLocation(297,180);
+        dindingDatar15.setLocation(335,238);
+        dindingNaik20.setLocation(297,182);
+    }
+}
+
+
 
 //Maze level 5
  public MyWorld()
