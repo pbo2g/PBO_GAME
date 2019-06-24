@@ -838,6 +838,83 @@ public MyWorld()
         wall_Kecil212.setLocation(248,478);
      }
 }
+
+//Jawaban 2
+public class o extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“O”);
+    }    
+}
+
+public class b extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“B”);
+    }    
+}
+
+public class j extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“J”);
+    }    
+}
+
+public class e extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“E”);
+    }    
+}
+
+public class k extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“K”);
+    }    
+}
+
+public class Hasil extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“Game Selesai”);
+    }    
+if(Greenfoot.KarakterTouching(O,B,J,E,K){
+karakter.isTouching(setImage.remove);
+}
+}
+
 //Soal 3
 public class Background extends World
 {
