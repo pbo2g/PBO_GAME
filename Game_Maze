@@ -2421,6 +2421,82 @@ public class Soal extends Actor
     }
 }
 
+//jawaban 5
+public class f extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“F”);
+    }    
+}
+
+public class i extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“I”);
+    }    
+}
+
+public class n extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“N”);
+    }    
+}
+
+public class a extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“A”);
+    }    
+}
+
+public class l extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“L”);
+    }    
+}
+
+public class Hasil extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“Game Selesai”);
+    }    
+if(Greenfoot.KarakterTouching(‘F,I,N,A,L’){
+karakter.isTouching(setImage.remove);
+}
+}
+
 //Soal 6
 public class Background extends World
 {
