@@ -2688,6 +2688,28 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
+ 
+ /*soal 9*/
+public class Background extends World
+{
+    public Background()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(800, 600, 1); 
+        Soal s = new Soal();
+        addObject(s, 400, 260);
+    }
+}
+public class Soal9 extends Actor
+{
+    String soal9 = "Alt + ...  + F merupakan shortcut pada netbeans yang sering \n digunakan untuk merapikan kodingan yang berantakan ";
+    public void act() 
+    {
+        getWorld().showText("Soal: " +soal9, 390, 300);
+    }    
+}
+
+ 
 public class MyWorld extends World
 {
 
