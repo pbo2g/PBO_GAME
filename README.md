@@ -62,7 +62,7 @@ Anggota Grup 4
 a. Badris membuat player (285)
 B.ilhaam membuat soal (320)
 C.sultan membuat soal (295)
-D. Alfath membuat soal (311)
+D. Alfath membuat maze (311)
 E. Bagus membuat soal (302)
 F. Angga membuat jawaban soal (278)
 G. Melly membuat jawaban soal (282)
