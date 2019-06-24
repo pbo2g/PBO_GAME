@@ -1,0 +1,100 @@
+/*Player bergerak*/
+public class Karakter extends Actor
+{
+    /**
+     * Act - do whatever the Karakter wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public int belok = 0;
+    public void act() 
+    {
+        KontrolKeyboard();
+        Ambil();
+    }    
+    public void KontrolKeyboard(){
+        if(Greenfoot.isKeyDown("up")){
+    setLocation(getX(), getY()-3);
+    if (hitWall() == true)
+    {
+        setLocation(getX(), getY()+3);  
+    }
+    }
+    if(Greenfoot.isKeyDown("down")){
+    setLocation(getX(), getY()+3);
+    if (hitWall() == true)
+    {
+        setLocation(getX(), getY()-3);  
+    }
+    }
+    if(Greenfoot.isKeyDown("right")){
+    setLocation(getX() + 3, getY());
+    if (hitWall() == true)
+    {
+        setLocation(getX() - 3, getY());  
+    }
+    
+    }
+    if(Greenfoot.isKeyDown("left")){
+    setLocation(getX() - 3, getY());
+    if (hitWall() == true)
+    {
+        setLocation(getX() + 3, getY());  
+    }
+    }
+    }
+    
+    public boolean hitWall(){
+    if (isTouching(Wall.class)){
+    return true;
+    }
+    else {
+    return false;
+    }
+}
+    public String Ambil(){
+        String[] Hasil = new String [3];
+        
+        String[] Jawaban = new String [3];
+        Jawaban [0] = "J";
+        Jawaban [1] = "V";
+        Jawaban [2] = "M";
+        
+    if(isTouching(j.class)){
+        removeTouching(j.class);
+        for (int i = 0; i == 2 ; i ++){
+            if (Hasil[i] == "null"){
+                Hasil[i] = "J";
+                break;
+            }
+        }
+    }
+    else if(isTouching(v.class)){
+        removeTouching(v.class);
+        for (int i = 0; i == 2 ; i ++){
+            if (Hasil[i] == "null"){
+                Hasil[i] = "V";
+                break;
+            }
+        }
+    }
+    else if(isTouching(m.class)){
+        removeTouching(m.class);
+        for (int i = 0; i == 2 ; i ++){
+            if (Hasil[i] == "null"){
+                Hasil[i] = "M";
+                break;
+            }
+        }
+    }
+    String hasil = null;
+    for (int x = 0 ; x == 2 ; x++){
+        if (Hasil [x] == Jawaban [x]){
+            hasil = "menang";
+        } else {
+           hasil = "kalah";
+        }
+
+    }
+    return hasil;
+}
+}
