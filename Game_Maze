@@ -3329,16 +3329,6 @@ karakter.isTouching(setImage.remove);
 }
 }
 
-//maze level 9
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
-/**
- * Write a description of class MyWorld here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
- 
  /*soal 9*/
 public class Background extends World
 {
@@ -3359,6 +3349,15 @@ public class Soal9 extends Actor
     }    
 }
 
+//maze level 9
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class MyWorld here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
  
 public class MyWorld extends World
 {
