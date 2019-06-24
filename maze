@@ -2455,6 +2455,36 @@ public class MyWorld extends World
         addObject(h113,435,518);
     }
 }
+
+//Soal 7
+public class Background extends World
+{
+    /**
+     * Constructor for objects of class Background.
+     * 
+     */
+    public Background()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(800, 600, 1); 
+        Soal s = new Soal();
+        addObject(s, 400, 260);
+    }
+}
+public class Soal extends Actor
+{
+    String soal7 = "Keyword apa yang digunakan untuk mengakhiri loop?";
+    /**
+     * Act - do whatever the Soal wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+        // Add your action code here.
+        getWorld().showText("Soal: " +soal7, 390, 300);
+    }    
+}
+
 //Maze level 7
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
