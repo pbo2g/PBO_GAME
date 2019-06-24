@@ -3319,6 +3319,114 @@ public class MyWorld extends World
      
     }
 }
+
+//maze level 11
+public class MyWorld extends World
+{
+
+    /**
+     * Constructor for objects of class MyWorld.
+     * 
+     */
+    public MyWorld()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(750, 600, 1); 
+        prepare();
+    }
+
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+        WallV3 wallV3 = new WallV3();
+        addObject(wallV3,78,136);
+        wallV3.setLocation(9,301);
+        wallV3.setLocation(8,299);
+        wallV3.setLocation(8,299);
+        WallV2 wallV2 = new WallV2();
+        addObject(wallV2,593,324);
+        wallV2.setLocation(153,316);
+        wallV2.setLocation(159,437);
+        removeObject(wallV2);
+        WallV2 wallV2o = new WallV2();
+        addObject(wallV2,183,363);
+        wallV2.setLocation(154,333);
+        WallV1 wallV1 = new WallV1();
+        addObject(wallV1,151,155);
+        wallV1.setLocation(154,177);
+        wallV2.setLocation(156,220);
+        wallV2.setLocation(155,389);
+        removeObject(wallV2);
+        WallV2 wallV2o1 = new WallV2();
+        addObject(wallV2,162,326);
+        wallV2.setLocation(154,333);
+        WallH3 wallH3 = new WallH3();
+        addObject(wallH3,529,318);
+        wallH3.setLocation(306,357);
+        WallH2 wallH2 = new WallH2();
+        addObject(wallH2,156,81);
+        wallH2.setLocation(149,48);
+        removeObject(wallH2);
+        WallH3 wallH32 = new WallH3();
+        addObject(wallH32,195,84);
+        wallH32.setLocation(160,4);
+        WallH2 wallH22 = new WallH2();
+        addObject(wallH22,300,517);
+        removeObject(wallH22);
+        WallV2 wallV22 = new WallV2();
+        addObject(wallV22,337,551);
+        removeObject(wallV22);
+        WallV1 wallV12 = new WallV1();
+        addObject(wallV12,415,491);
+        wallV12.setLocation(302,529);
+        WallH3 wallH33 = new WallH3();
+        addObject(wallH33,201,523);
+        wallH33.setLocation(159,592);
+        WallH2 wallH23 = new WallH2();
+        addObject(wallH23,379,293);
+        wallH23.setLocation(236,125);
+        WallV1 wallV13 = new WallV1();
+        addObject(wallV13,329,185);
+        wallV13.setLocation(302,189);
+        WallH2 wallH24 = new WallH2();
+        addObject(wallH24,398,306);
+        wallH24.setLocation(383,239);
+        WallV2 wallV23 = new WallV2();
+        addObject(wallV23,574,378);
+        wallV23.setLocation(447,504);
+        WallH3 wallH34 = new WallH3();
+        addObject(wallH34,648,540);
+        wallH34.setLocation(603,592);
+        WallV3 wallV32 = new WallV3();
+        addObject(wallV32,647,481);
+        wallV32.setLocation(741,458);
+        WallH2 wallH25 = new WallH2();
+        addObject(wallH25,641,300);
+        wallH25.setLocation(659,241);
+        WallV1 wallV14 = new WallV1();
+        addObject(wallV14,650,361);
+        wallV14.setLocation(594,305);
+        WallV1 wallV15 = new WallV1();
+        addObject(wallV15,628,432);
+        wallV15.setLocation(594,423);
+        WallV2 wallV24 = new WallV2();
+        addObject(wallV24,697,313);
+        wallV24.setLocation(740,143);
+        WallH3 wallH35 = new WallH3();
+        addObject(wallH35,642,178);
+        wallH35.setLocation(589,5);
+        WallV1 wallV16 = new WallV1();
+        addObject(wallV16,505,99);
+        wallV16.setLocation(447,72);
+        WallH2 wallH26 = new WallH2();
+        addObject(wallH26,562,195);
+        wallH26.setLocation(529,124);
+    }
+}
+
 //maze level 12
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
