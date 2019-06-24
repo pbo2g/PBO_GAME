@@ -4472,6 +4472,69 @@ WallH4 wallH016 = new WallH4();
 addObject(wallH016,358,367);
     }
 }
+//Jawaban 12
+public class d extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“D”);
+    }    
+}
+
+public class h extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“H”);
+    }    
+}
+
+public class c extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“C”);
+    }    
+}
+
+public class p extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“P”);
+    }    
+}
+
+public class Hasil extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“Game Selesai”);
+    }    
+if(Greenfoot.KarakterTouching(‘D, H, C, P’){
+karakter.isTouching(setImage.remove);
+}
+}
 //Soal 13
 public class Background extends World
 {
