@@ -494,6 +494,7 @@ public class MyWorld extends World
         dindingy_pendek17.setLocation(156,559);
     }
 }
+//Jawaban 1
 public class j extends Actor
 {
     /**
