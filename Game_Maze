@@ -1551,6 +1551,106 @@ public class MyWorld extends World
     }
 }
 
+//Jawaban4
+public class j extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“J”);
+    }    
+}
+
+public class a extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“A”);
+    }    
+}
+
+public class v extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“V”);
+    }    
+}
+
+public class titik extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“.”);
+    }    
+}
+
+public class t extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“T”);
+    }    
+}
+
+public class e extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“E”);
+    }    
+}
+
+public class x extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“X”);
+    }    
+}
+
+public class Hasil extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“Game Selesai”);
+    }    
+if(Greenfoot.KarakterTouching(‘J,A,V,A,.,T,E,X,T’){
+karakter.isTouching(setImage.remove);
+}
+}
+
 //Soal5
 public class Background extends World
 {
@@ -2421,82 +2521,6 @@ public class Soal extends Actor
     }
 }
 
-//jawaban 5
-public class f extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“F”);
-    }    
-}
-
-public class i extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“I”);
-    }    
-}
-
-public class n extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“N”);
-    }    
-}
-
-public class a extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“A”);
-    }    
-}
-
-public class l extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“L”);
-    }    
-}
-
-public class Hasil extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“Game Selesai”);
-    }    
-if(Greenfoot.KarakterTouching(‘F,I,N,A,L’){
-karakter.isTouching(setImage.remove);
-}
-}
-
 //Soal 6
 public class Background extends World
 {
@@ -2936,84 +2960,6 @@ public class MyWorld extends World
 	addObject(wallY0001,534,562);	
     }
 }
-
-//Jawaban 7
-public class b extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“B”);
-    }    
-}
-
-public class r extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“R”);
-    }    
-}
-
-public class e extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“E”);
-    }    
-}
-
-public class a extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“a”);
-    }    
-}
-
-public class k extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“K”);
-    }    
-}
-
-public class Hasil extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“Game Selesai”);
-    }    
-    if(Greenfoot.KarakterTouching(‘B,R,E,A,K,;’)
-    {
-    karakter.isTouching(setImage.remove);
-    }
-}
-
 //Soal 8
 public class Background extends World
 {
@@ -3228,107 +3174,16 @@ public class MyWorld extends World
         v18.setLocation(217,247);
     }
 }
+//maze level 9
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-//Jawaban 8
-public class p extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“P”);
-    }    
-}
-
-public class r extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“R”);
-    }    
-}
-
-public class o extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“O”);
-    }    
-}
-
-public class t extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“T”);
-    }    
-}
-
-public class e extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“E”);
-    }    
-}
-
-public class c extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“C”);
-    }    
-}
-
-public class d extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“D”);
-    }    
-}
-
-public class Hasil extends Actor
-{
-    /**
-     * Act - do whatever the j wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-       System.show(“Game Selesai”);
-    }    
-if(Greenfoot.KarakterTouching(‘P,R,O,T,E,C,D’){
-karakter.isTouching(setImage.remove);
-}
-}
-
+/**
+ * Write a description of class MyWorld here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+ 
  /*soal 9*/
 public class Background extends World
 {
@@ -3349,15 +3204,6 @@ public class Soal9 extends Actor
     }    
 }
 
-//maze level 9
-import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
-
-/**
- * Write a description of class MyWorld here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
  
 public class MyWorld extends World
 {
