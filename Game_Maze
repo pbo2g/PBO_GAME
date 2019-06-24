@@ -3083,7 +3083,7 @@ public class a extends Actor
      */
     public void act() 
     {
-       System.show(“a”);
+       System.show(“A”);
     }    
 }
 
@@ -3109,7 +3109,7 @@ public class Hasil extends Actor
     {
        System.show(“Game Selesai”);
     }    
-    if(Greenfoot.KarakterTouching(‘B,R,E,A,K,’)
+    if(Greenfoot.KarakterTouching(‘B,R,E,A,K’)
     {
     karakter.isTouching(setImage.remove);
     }
