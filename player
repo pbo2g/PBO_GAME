@@ -3506,3 +3506,276 @@ addObject(wallH016,358,367);
     }
 }
 
+//maze level 13
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class MyWorld here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class MyWorld extends World
+{
+
+    /**
+     * Constructor for objects of class MyWorld.
+     * 
+     */
+    public MyWorld()
+    {    
+        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+        super(750, 600, 1); 
+        prepare();
+    }
+
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+
+        V3 v3 = new V3();
+        addObject(v3,5,170);
+        v3.setLocation(5,145);
+        V3 v32 = new V3();
+        addObject(v32,5,453);
+        v32.setLocation(5,443);
+        H4 h4 = new H4();
+        addObject(h4,34,593);
+        H4 h42 = new H4();
+        addObject(h42,347,593);
+        h42.setLocation(289,593);
+        H3 h3 = new H3();
+        addObject(h3,531,591);
+        h3.setLocation(484,593);
+
+        V3 v33 = new V3();
+        addObject(v33,739,426);
+        v33.setLocation(743,451);
+        V3 v34 = new V3();
+        addObject(v34,739,121);
+        v34.setLocation(743,154);
+        H4 h43 = new H4();
+        addObject(h43,686,10);
+        h43.setLocation(658,5);
+        H4 h44 = new H4();
+        addObject(h44,315,7);
+        h44.setLocation(358,5);
+
+        H2 h2 = new H2();
+        addObject(h2,680,234);
+        h2.setLocation(717,232);
+
+        H1 h1 = new H1();
+        addObject(h1,656,232);
+        h1.setLocation(666,232);
+        H1 h12 = new H1();
+        addObject(h12,666,232);
+        h1.setLocation(653,232);
+        H1 h13 = new H1();
+        addObject(h13,653,232);
+        H2 h22 = new H2();
+        addObject(h22,688,149);
+        h22.setLocation(692,148);
+        V1 v1 = new V1();
+        addObject(v1,652,109);
+        v1.setLocation(655,116);
+        V1 v12 = new V1();
+        addObject(v12,640,262);
+        v12.setLocation(645,278);
+        v12.setLocation(645,262);
+        V1 v13 = new V1();
+        addObject(v13,645,262);
+        H2 h23 = new H2();
+        addObject(h23,684,452);
+        h23.setLocation(694,450);
+
+        V1 v14 = new V1();
+        addObject(v14,642,402);
+        v14.setLocation(643,430);
+
+        V1 v15 = new V1();
+        addObject(v15,676,377);
+        v15.setLocation(643,406);
+        V1 v16 = new V1();
+        addObject(v16,643,307);
+        v16.setLocation(645,279);
+        H2 h24 = new H2();
+        addObject(h24,56,7);
+        h24.setLocation(56,7);
+        H2 h25 = new H2();
+        addObject(h25,680,595);
+        h25.setLocation(691,593);
+        V2 v2 = new V2();
+        addObject(v2,102,44);
+        v2.setLocation(105,59);
+        V1 v17 = new V1();
+        addObject(v17,105,134);
+        v17.setLocation(105,129);
+        H2 h26 = new H2();
+        addObject(h26,154,84);
+        V1 v18 = new V1();
+        addObject(v18,182,113);
+        v18.setLocation(191,120);
+
+        v18.setLocation(186,132);
+        V1 v19 = new V1();
+        addObject(v19,186,132);
+        v19.setLocation(191,129);
+        v18.setLocation(191,109);
+        V2 v22 = new V2();
+        addObject(v22,294,44);
+        v22.setLocation(293,59);
+
+        V1 v110 = new V1();
+        addObject(v110,291,143);
+        v110.setLocation(293,128);
+
+        H2 h27 = new H2();
+        addObject(h27,46,299);
+        h27.setLocation(58,301);
+        V1 v111 = new V1();
+        addObject(v111,95,269);
+        v111.setLocation(98,279); 
+        V1 v112 = new V1();
+        addObject(v112,98,244);
+        v112.setLocation(98,247);
+        H2 h28 = new H2();
+        addObject(h28,126,228);
+        h28.setLocation(144,224);
+        V1 v113 = new V1();
+        addObject(v113,176,258);
+        v113.setLocation(181,257);
+        V1 v114 = new V1();
+        addObject(v114,184,290);
+        v114.setLocation(181,279);
+
+        H3 h32 = new H3();
+        addObject(h32,252,300);
+        h32.setLocation(264,301);
+        H2 h29 = new H2();
+        addObject(h29,388,300);
+        h29.setLocation(384,301);
+        H2 h210 = new H2();
+        addObject(h210,463,292);
+        h210.setLocation(421,301);
+        V1 v115 = new V1();
+        addObject(v115,479,326);
+        v115.setLocation(459,335);
+        v115.setLocation(459,338);
+        H2 h211 = new H2();
+        addObject(h211,502,360);
+        h211.setLocation(497,368);
+        H1 h14 = new H1();
+        addObject(h14,546,368);
+        V1 v116 = new V1();
+        addObject(v116,556,297);
+        v116.setLocation(554,347);
+
+        V1 v117 = new V1();
+        addObject(v117,517,289);
+        v117.setLocation(554,324);
+
+        H2 h212 = new H2();
+        addObject(h212,39,530);
+        h212.setLocation(57,523);
+        H2 h213 = new H2();
+        addObject(h213,70,458);
+        h213.setLocation(52,446);
+        V1 v118 = new V1();
+        addObject(v118,142,425);
+        v118.setLocation(100,424);
+        V1 v119 = new V1();
+        addObject(v119,126,374);
+        v119.setLocation(100,399);
+        H2 h214 = new H2();
+        addObject(h214,137,376);
+        h214.setLocation(145,376);
+        V1 v120 = new V1();
+        addObject(v120,197,398);
+        v120.setLocation(182,401);
+        V1 v121 = new V1();
+        addObject(v121,213,450);
+        v121.setLocation(182,423);
+        V1 v122 = new V1();
+        addObject(v122,393,331);
+        v122.setLocation(372,337);
+        H2 h215 = new H2();
+        addObject(h215,314,351);
+        h215.setLocation(335,374);
+        V1 v123 = new V1();
+        addObject(v123,293,409);
+        v123.setLocation(285,397);
+        V1 v124 = new V1();
+        addObject(v124,304,408);
+        v124.setLocation(285,422);
+        H2 h216 = new H2();
+        addObject(h216,376,449);
+        h216.setLocation(338,444);
+        h216.setLocation(336,444);
+        V1 v125 = new V1();
+        addObject(v125,279,567);
+        v125.setLocation(273,556);
+        H3 h33 = new H3();
+        addObject(h33,301,516);
+        h33.setLocation(288,522);
+        H2 h217 = new H2();
+        addObject(h217,434,526);
+        h217.setLocation(408,522);
+        V1 v126 = new V1();
+        addObject(v126,440,475);
+        v126.setLocation(457,500);
+        V1 v127 = new V1();
+        addObject(v127,477,456);
+        v127.setLocation(457,472);
+        H2 h218 = new H2();
+        addObject(h218,519,446);
+        h218.setLocation(508,449);
+        V1 v128 = new V1();
+        addObject(v128,537,516);
+        v128.setLocation(552,471);
+        V1 v129 = new V1();
+        addObject(v129,578,523);
+        v129.setLocation(552,500);
+        H2 h219 = new H2();
+        addObject(h219,674,527);
+        h219.setLocation(600,522);
+        h44.setLocation(359,5);
+        H1 h15 = new H1();
+        addObject(h15,206,6);
+        V1 v130 = new V1();
+        addObject(v130,459,53);
+        v130.setLocation(465,43);
+        H2 h220 = new H2();
+        addObject(h220,499,85);
+        h220.setLocation(504,79);
+        V2 v23 = new V2();
+        addObject(v23,557,142);
+        v23.setLocation(555,131);
+        V1 v131 = new V1();
+        addObject(v131,567,218);
+        v131.setLocation(556,198);
+        H2 h221 = new H2();
+        addObject(h221,505,227);
+        h221.setLocation(505,220);
+        V1 v132 = new V1();
+        addObject(v132,460,160);
+        v132.setLocation(467,185);
+        H2 h222 = new H2();
+        addObject(h222,369,146);
+        h222.setLocation(430,157);
+        V2 v24 = new V2();
+        addObject(v24,373,122);
+        v24.setLocation(377,139);
+        V1 v133 = new V1();
+        addObject(v133,384,213);
+        v133.setLocation(377,202);
+
+        H2 h223 = new H2();
+        addObject(h223,311,227);
+        h223.setLocation(326,224);
+
+    }
+}
