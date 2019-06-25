@@ -5251,3 +5251,80 @@ public class Soal extends Actor
     }    
 }
 
+/**
+ * Class untuk button pada main menu
+ */
+public class Button extends Actor
+{
+    private boolean mouseOver = false;
+    private static int MAX_TRANS = 255;
+    
+    public void checkClick(World world){
+        if(Greenfoot.mouseClicked(this)){
+            Greenfoot.setWorld(world);
+        }
+    }
+    
+    public void checkMouse(){
+        if(Greenfoot.mouseMoved(null)){
+            mouseOver = Greenfoot.mouseMoved(this);
+        }
+        //saat mouse ada diatas tulisan, maka tulisan akan setengah transparan
+        if(mouseOver){
+            adjTrans(MAX_TRANS/2);
+        }
+        else{
+            adjTrans(MAX_TRANS);
+        }
+    }
+    
+    public void adjTrans(int adjust){
+        GreenfootImage tempImage = getImage();
+        tempImage.setTransparency(adjust);
+        setImage(tempImage);
+    }
+}
+
+/**
+ * Class button 'play'
+ */
+public class Play extends Button
+{
+    public Play(){
+        GreenfootImage playButton = new GreenfootImage (230,60);
+        Font font = new Font(true, false, 50);
+        playButton.setFont(font);
+        playButton.setColor(Color.BLUE);
+        playButton.drawString("Mulai",0,50);
+        setImage(playButton);
+    } 
+    
+    public void act(){
+        checkMouse();
+        checkClick(new Background());
+    }
+}
+
+
+/**
+ * Class button 'Exit'
+ */
+public class Exit extends Button
+{
+    public Exit(){
+        GreenfootImage exit = new GreenfootImage (230,60);
+        Font font = new Font(true, false, 40);
+        exit.setFont(font);
+        exit.setColor(Color.BLUE);
+        exit.drawString("Keluar",0,50);
+        setImage(exit);
+    } 
+    
+    public void act(){
+        checkMouse();
+        if(Greenfoot.mouseClicked(this)){
+            Greenfoot.stop();
+        }
+        
+    }   
+}
