@@ -2851,6 +2851,60 @@ public class MyWorld extends World
     }
 }
 
+//Jawaban 6
+
+public class i extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“I”);
+    }    
+}
+
+public class n extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“N”);
+    }    
+}
+
+public class t extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“T”);
+    }    
+}
+
+public class Hasil extends Actor
+{
+    /**
+     * Act - do whatever the j wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act() 
+    {
+       System.show(“Game Selesai”);
+    }    
+    if(Greenfoot.KarakterTouching(‘I,N,T’)
+    {
+    karakter.isTouching(setImage.remove);
+    }
+}
+
 //Soal 7
 public class Background extends World
 {
