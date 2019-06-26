@@ -5328,6 +5328,107 @@ public class Exit extends Button
         
     }   
 }
+
+//jawaban 14
+public class c extends Actor
+{
+/**
+* Act - do whatever the j wants to do. This method is called whenever
+* the 'Act' or 'Run' button gets pressed in the environment.
+*/
+public void act() 
+{
+System.show(“C”);
+} 
+}
+
+public class y extends Actor
+{
+/**
+* Act - do whatever the j wants to do. This method is called whenever
+* the 'Act' or 'Run' button gets pressed in the environment.
+*/
+public void act() 
+{
+System.show(“Y”);
+} 
+}
+
+public class b extends Actor
+{
+/**
+* Act - do whatever the j wants to do. This method is called whenever
+* the 'Act' or 'Run' button gets pressed in the environment.
+*/
+public void act() 
+{
+System.show(“B”);
+} 
+}
+
+public class e extends Actor
+{
+/**
+* Act - do whatever the j wants to do. This method is called whenever
+* the 'Act' or 'Run' button gets pressed in the environment.
+*/
+public void act() 
+{
+System.show(“E”);
+} 
+}
+
+public class r extends Actor
+{
+/**
+* Act - do whatever the j wants to do. This method is called whenever
+* the 'Act' or 'Run' button gets pressed in the environment.
+*/
+public void act() 
+{
+System.show(“R”);
+} 
+}
+
+public class i extends Actor
+{
+/**
+* Act - do whatever the j wants to do. This method is called whenever
+* the 'Act' or 'Run' button gets pressed in the environment.
+*/
+public void act() 
+{
+System.show(“I”);
+} 
+}
+
+public class m extends Actor
+{
+/**
+* Act - do whatever the j wants to do. This method is called whenever
+* the 'Act' or 'Run' button gets pressed in the environment.
+*/
+public void act() 
+{
+System.show(“M”);
+} 
+}
+
+public class Hasil extends Actor
+{
+/**
+* Act - do whatever the j wants to do. This method is called whenever
+* the 'Act' or 'Run' button gets pressed in the environment.
+*/
+public void act() 
+{
+System.show(“Game Selesai”);
+} 
+if(Greenfoot.KarakterTouching(‘C, Y, B, E, R, I, M’){
+karakter.isTouching(setImage.remove);
+}
+}
+
 //SOal 15
 public class Background extends World
 {
