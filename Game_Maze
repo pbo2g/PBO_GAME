@@ -5222,6 +5222,58 @@ public class MyWorld extends World
 
     }
 }
+//Jawaban Soal 13
+public class i extends Actor
+{
+/**
+* Act - do whatever the j wants to do. This method is called whenever
+* the 'Act' or 'Run' button gets pressed in the environment.
+*/
+public void act() 
+{
+System.show(“I”);
+} 
+}
+
+public class s extends Actor
+{
+/**
+* Act - do whatever the j wants to do. This method is called whenever
+* the 'Act' or 'Run' button gets pressed in the environment.
+*/
+public void act() 
+{
+System.show(“S”);
+} 
+}
+
+public class p extends Actor
+{
+/**
+* Act - do whatever the j wants to do. This method is called whenever
+* the 'Act' or 'Run' button gets pressed in the environment.
+*/
+public void act() 
+{
+System.show(“P”);
+} 
+}
+
+public class Hasil extends Actor
+{
+/**
+* Act - do whatever the j wants to do. This method is called whenever
+* the 'Act' or 'Run' button gets pressed in the environment.
+*/
+public void act() 
+{
+System.show(“Game Selesai”);
+} 
+if(Greenfoot.KarakterTouching(‘I, S, P’){
+karakter.isTouching(setImage.remove);
+}
+}
+
 //SOal 14
 public class Background extends World
 {
@@ -5456,55 +5508,4 @@ public class Soal extends Actor
         // Add your action code here.
         getWorld().showText("Soal: " +soal7, 390, 300);
     }    
-}
-//Jawaban Soal 13
-public class i extends Actor
-{
-/**
-* Act - do whatever the j wants to do. This method is called whenever
-* the 'Act' or 'Run' button gets pressed in the environment.
-*/
-public void act() 
-{
-System.show(“I”);
-} 
-}
-
-public class s extends Actor
-{
-/**
-* Act - do whatever the j wants to do. This method is called whenever
-* the 'Act' or 'Run' button gets pressed in the environment.
-*/
-public void act() 
-{
-System.show(“S”);
-} 
-}
-
-public class p extends Actor
-{
-/**
-* Act - do whatever the j wants to do. This method is called whenever
-* the 'Act' or 'Run' button gets pressed in the environment.
-*/
-public void act() 
-{
-System.show(“P”);
-} 
-}
-
-public class Hasil extends Actor
-{
-/**
-* Act - do whatever the j wants to do. This method is called whenever
-* the 'Act' or 'Run' button gets pressed in the environment.
-*/
-public void act() 
-{
-System.show(“Game Selesai”);
-} 
-if(Greenfoot.KarakterTouching(‘I, S, P’){
-karakter.isTouching(setImage.remove);
-}
 }
