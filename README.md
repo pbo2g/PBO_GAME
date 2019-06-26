@@ -1,11 +1,6 @@
 # PBO_GAME
 Ketua Umum  : Badris
 
-Handler :
-1. Rahul
-2. Salma
-3. Weka
-
 Ketua Devisi
 
 1. Devisi Animasi Maze
