@@ -3173,32 +3173,29 @@ public class Hasil extends Actor
 public class Background extends World
 {
 
-    /**
-     * Constructor for objects of class Background.
-     * 
-     */
-    public Background()
-    {    
-        // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(800, 600, 1); 
-        Soal s = new Soal();
-        addObject(s, 400, 260); 
-    }
+	/**
+	 * membuat constructor untuk object dari class Background
+	 *
+	 */
+	 public Background()
+	 {
+	 
+	 	// membuat sebuah kotak dengan ukuran 600x400
+		super(800, 600, 1);
+		Soal s = new Soal();
+		addObject(s, 400, 260);
+	 }
 }
 public class Soal extends Actor
 {
-    String soal8 = "Modifier apa yang bisa diakses oleh subclass, class \n yang sama dan package yang sama?";
-    /**
-     * Act - do whatever the Soal wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
-    public void act() 
-    {
-        // Add your action code here.
-        getWorld().showText("Soal: " +soal8, 390, 300);
-    }    
+	String soal8 = "Modifier apa yang bisa diakses oleh subclass, class \n yang sama dan package yang sama";
+	
+	public void act()
+	{
+		//menambahkan action code
+		getworld().showText("Soal: "+ soal8, 390, 300);
+	}
 }
-
 //maze level 8
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
